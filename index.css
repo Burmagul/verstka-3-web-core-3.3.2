@@ -1,0 +1,402 @@
+* {
+  font-family: "TT Lakes Neue Trial", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: #f8f8f8;
+  max-width: 1280px;
+}
+
+/* @media only screen and (min-width: 279px) { */
+  .header {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: white;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .divider {
+    display: none;
+  }
+  #background__blok1-text-img {
+    width: 100%;
+  }
+  .header__container-maxVidth {
+    display: none;
+  }
+  .title__phone {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 28px;
+  }
+
+  .header_icon1-bound {
+    width: 40px;
+    height: 40px;
+    top: 24px;
+    left: 20px;
+  }
+  .header_icon1-icon {
+    width: 18px;
+    height: 16px;
+    top: 36px;
+    margin-left: 10px;
+  }
+  .header_icon1-back {
+    width: 40px;
+    height: 40px;
+    top: 24px;
+    left: 16x;
+    border-radius: 20px;
+    background: #ff3e79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__container-content {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* ICON TWO */
+
+  .header_iconFoto {
+    width: 96.55px;
+    height: 50.81px;
+    top: 18.59px;
+    left: 72.73px;
+    border: 0.5px;
+    border: 0.5px solid rgba(128, 148, 159, 1);
+  }
+  .header_icon-3 {
+    width: 2px;
+    height: 32px;
+    top: 28px;
+    left: 186px;
+    border-radius: 1px;
+    background: rgba(234, 234, 234, 1);
+  }
+  .header_icon-5 {
+    margin-right: 10px;
+  }
+  /* TITLE */
+
+  .background {
+    width: 100%px;
+    height: 509px;
+    top: 88px;
+    background: rgba(248, 248, 248, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .background__title {
+    width: 100%;
+    height: 40px;
+    top: 112px;
+  }
+  /* tipo footer */
+  .background__blok1 {
+    margin-left: 20px;
+    width: 98%;
+    height: 322px;
+    top: 240px;
+  }
+  .main__menu {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 40px;
+    overflow: auto;
+    padding-left: 30px;
+  }
+
+  .main__menu .main__menu1 {
+    height: 40px;
+    border: 2px solid #b8ffec;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+
+  .phone {
+    padding-left: 15px;
+  }
+
+  p {
+    display: none;
+  }
+
+  .desktop_container {
+    display: none;
+  }
+
+  .tablet_container {
+    display: none;
+  }
+
+  #background__blok1-text-img {
+    display: none;
+  }
+
+  .tablet_block {
+    display: none;
+  }
+  .chitat_Dalshe {
+    display: none;
+  }
+  .background__blok1-text2 {
+    display: none;
+  }
+
+  .background__blok1-text-img {
+    margin-top: 30px;
+    height: 176px;
+    width: 100%;
+  }
+/* } */
+
+@media only screen and (min-width: 767px)  {
+  .divider {
+padding-left: 25px;
+    display: block;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header_icon-2 {
+    padding-right: 300px;
+    margin-left: -25px;
+  }
+  .header_iconFoto{
+    margin-right: -60px;
+margin-left: 30px;
+  }
+  .tablet_container {
+    display: block;
+  }
+
+  .header_icon1-back {
+    margin-right: -35px;
+  }
+  .tablet_container {
+    margin-right: -90px;
+  }
+
+  .header_icon-3 {
+    margin-left: 100px;
+    margin-right: -15px;
+  }
+
+  .header__container-content {
+    margin-right: 20px;
+  }
+
+  .phone {
+    display: none;
+  }
+  .tablet {
+    display: block;
+    padding-left: 35px;
+    width: 100%;
+  }
+  .desktop_container {
+    display: none;
+  }
+
+  .main__menu {
+    padding-left: 55px;
+  }
+  .tablet_block {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .tablet_image > img {
+    width: 480px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 716px;
+  }
+  .divider {
+    display: none;
+  }
+  .header_icon-4 {
+    display: flex;
+    white-space: nowrap;
+    gap: 10px;
+    font-weight: 900;
+    font-size: large;
+  }
+  .header_icon-5 {
+    display: flex;
+    white-space: nowrap;
+    gap: 10px;
+    font-weight: 900;
+    font-size: large;
+  }
+  .header_icon-2 {
+    display: none;
+  }
+  .header_icon-3 {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .header__container-maxVidth {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__container-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 25px;
+  }
+  h1 {
+    margin-left: 60px;
+    font-weight: 900;
+    font-family: "TT Lakes Neue Trial", sans-serif;
+    font-size: 30px;
+  }
+  .background {
+    width: 1400px;
+    display: flex;
+  }
+  .main__menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #7e7e82;
+    line-height: 40px;
+    overflow-x: auto;
+    padding-left: 45px;
+    gap: 20px;
+    line-height: 24px;
+  }
+
+  .main__menu1 {
+    border: 2px solid #b8ffec;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-left: 35px;
+  }
+  .phone {
+    display: none;
+  }
+
+  .tablet_block {
+    display: none;
+  }
+  .desktop_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 35px;
+  }
+
+  .desktop {
+    width: 45%;
+    height: 160px;
+    line-height: 30px;
+    letter-spacing: 0.30000000298023224px;
+    text-align: left;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #414244;
+    margin-top: -90px;
+  }
+
+  .desktop_image img {
+    margin-top: 80px;
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  .background__blok1-text2 {
+    display: inline-flex;
+    color: #414244;
+    width: 100%;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+
+  .chitat_Dalshe {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 110px;
+  }
+  h3 {
+    display: none;
+  }
+  #background__blok1-text-img {
+    max-width: 700px;
+    height: 357px;
+    margin-top: 80px;
+  }
+  .background__blok1-text {
+    width: 100%;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+
+  .title__phone {
+    display: none;
+  }
+  p {
+    display: flex;
+  }
+
+  .main__menu2 {
+    display: flex;
+  }
+  .main__menu3 {
+    display: flex;
+  }
+  .main__menu4 {
+    display: flex;
+  }
+  .main__menu5 {
+    display: flex;
+  }
+  .main__menu6 {
+    
+    display: block;
+  }
+}
